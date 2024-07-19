@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Splines;
+using UnityEngine.XR;
 
+[RequireComponent(typeof(XRInputData))]
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] SplineAnimate _splineAnimate;
@@ -13,11 +13,22 @@ public class PlayerController : MonoBehaviour
     private Vector3 _prevPos;
     private Vector3 _velocity;
     private Queue<Vector3> _velocityHistory = new Queue<Vector3>(10);
+    private XRInputData _inputData;
+
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _speedMax = _splineAnimate.MaxSpeed;
+        _inputData = GetComponent<XRInputData>();
+    }
+
+    private void Update()
+    {
+        if (_inputData.rightController.TryGetFeatureValue(CommonUsages.triggerButton, out bool trigger))
+        {
+            _splineAnimate.MaxSpeed = trigger ? 50 : 4;
+        }
     }
 
     private void FixedUpdate()

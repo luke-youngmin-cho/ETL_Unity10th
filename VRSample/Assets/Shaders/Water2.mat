@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1365226026196232613
+--- !u!114 &-7285023459630931300
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: f8e26368031e5bb44a1bbafc99a08023,
+  m_Name: Water2
+  m_Shader: {fileID: -6465566751694194690, guid: 6e93cdba6c3b2e749bfbee13f388da27,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,11 +37,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Normal1:
-        m_Texture: {fileID: 2800000, guid: 35657995ca17b5846a40a104ff068db6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal2:
+    - _Normal:
         m_Texture: {fileID: 2800000, guid: 35657995ca17b5846a40a104ff068db6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -59,12 +55,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth: 4.2
-    - _NormalStrength: 1.53
+    - _Depth: 7.86
+    - _Displacement: 1
+    - _EdgeDistance: 5
+    - _NormalIntensity: 2
+    - _NormalStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Strength: 0.7
+    - _SwellSpeed: 2
+    - _WaveSpeed: 2
     m_Colors:
-    - _DeepColor: {r: 0.12598372, g: 0.3788014, b: 0.81761, a: 0.64705884}
-    - _ShallowColor: {r: 0.38226318, g: 0.7355762, b: 0.8050313, a: 0.42352942}
+    - _Deep: {r: 0.12683429, g: 0.35819334, b: 0.7610062, a: 0.7764706}
+    - _Shallow: {r: 0.28519428, g: 0.6609097, b: 0.8805031, a: 0.372549}
   m_BuildTextureStacks: []
