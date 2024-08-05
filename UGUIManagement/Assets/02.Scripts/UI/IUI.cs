@@ -1,22 +1,24 @@
+using UnityEngine.InputSystem;
+
 namespace Demo.UI
 {
     /// <summary>
-    /// UI ±âº» ÀÎÅÍÆäÀÌ½º. Canvas ¿ÍÀÇ »óÈ£ÀÛ¿ë.
+    /// UI ê¸°ë³¸ ì¸í„°í˜ì´ìŠ¤. Canvas ì™€ì˜ ìƒí˜¸ì‘ìš©.
     /// </summary>
-    public interface IUI
+    public interface IUI : InputActions.IUIActions
     {
         /// <summary>
-        /// Canvas ÀÇ Á¤·Ä ¼ø¼­
+        /// Canvas ì˜ ì •ë ¬ ìˆœì„œ
         /// </summary>
         int sortingOrder { get; set; }
 
         /// <summary>
-        /// Canvas¸¦ È°¼ºÈ­
+        /// Canvasë¥¼ í™œì„±í™”
         /// </summary>
         void Show();
 
         /// <summary>
-        /// Canvas ºñÈ°¼ºÈ­
+        /// Canvas ë¹„í™œì„±í™”
         /// </summary>
         void Hide();
     }

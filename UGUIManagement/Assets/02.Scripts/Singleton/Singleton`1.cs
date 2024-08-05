@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 
 namespace Demo.Singleton
@@ -12,7 +12,11 @@ namespace Demo.Singleton
             {
                 if (s_instance == null)
                 {
+                    /* Reflection : 
+                     * 런타임중에 메타데이터에 접근하는 기능
+                     */
                     //ConstructorInfo constructorInfo = typeof(T).GetConstructor(null);
+                    //
                     //if (constructorInfo != null)
                     //    s_instance = (T)constructorInfo.Invoke(null);
 
