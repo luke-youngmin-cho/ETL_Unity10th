@@ -6,7 +6,7 @@ namespace Demo.UI
 {
     public class UI_Shop : UI_PopupBase
     {
-        [SerializeField] Button _close;
+        [Resolve] Button _close;
 
         protected override void Awake()
         {

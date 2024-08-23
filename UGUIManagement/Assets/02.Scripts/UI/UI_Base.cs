@@ -1,4 +1,7 @@
+using Demo.Extensions;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Text;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -21,12 +24,60 @@ namespace Demo.UI
         private EventSystem _eventSystem;
         private List<RaycastResult> _raycastBuffer = new List<RaycastResult>(2);
 
+
         protected virtual void Awake()
         {
             _canvas = GetComponent<Canvas>();
             _raycastModule = GetComponent<GraphicRaycaster>();
             _eventSystem = EventSystem.current;
+            Resolve();
             UIManager.instance.Register(this);
+        }
+
+        private void Resolve()
+        {
+            FieldInfo[] fieldInfos = GetType().GetFields(BindingFlags.NonPublic | BindingFlags.Instance);
+            StringBuilder stringBuilder = new StringBuilder(40);
+
+            for (int i = 0; i < fieldInfos.Length; i++)
+            {
+                ResolveAttribute resolveAttribute = fieldInfos[i].GetCustomAttribute<ResolveAttribute>();
+
+                if (resolveAttribute != null)
+                {
+                    stringBuilder.Clear();
+                    stringBuilder.Append(UGUIResolveNameTable.pairs[fieldInfos[i].FieldType]);
+                    string fieldName = fieldInfos[i].Name;
+                    bool isFirst = true;
+
+                    for (int j = 0; j < fieldName.Length; j++)
+                    {
+                        if (isFirst)
+                        {
+                            if (fieldName[j].Equals('_'))
+                                continue;
+
+                            stringBuilder.Append(char.ToUpper(fieldName[j]));
+                            isFirst = false;
+                        }
+                        else
+                        {
+                            stringBuilder.Append(fieldName[j]);
+                        }
+                    }
+
+                    Transform result = transform.FindChildWithName(stringBuilder.ToString());
+
+                    if (result != null)
+                    {
+                        fieldInfos[i].SetValue(this, result.GetComponent(fieldInfos[i].FieldType));
+                    }
+                    else
+                    {
+                        Debug.LogError($"[{name}] : Cannot resolve field {fieldInfos[i].Name}.");
+                    }
+                }
+            }
         }
 
         public virtual void Show()

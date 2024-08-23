@@ -8,9 +8,9 @@ namespace Demo.UI
 {
     public class UI_ConfirmWindow : UI_PopupBase
     {
-        [SerializeField] TMP_Text _message;
-        [SerializeField] Button _confirm;
-        [SerializeField] Button _cancel;
+        [Resolve] TMP_Text _message;
+        [Resolve] Button _confirm;
+        [Resolve] Button _cancel;
 
         public void Show(string message, UnityAction onConfirmed = null, UnityAction onCanceled = null)
         {

@@ -1,6 +1,7 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI; 
 
 namespace Demo.UI
 {
@@ -9,7 +10,6 @@ namespace Demo.UI
         public int itemPrice { get; private set; }
         [SerializeField] Image _itemIcon;
         [SerializeField] TMP_Text _itemPrice;
-
 
         private void Awake()
         {

@@ -7,8 +7,8 @@ namespace Demo.UI
 {
     public class UI_AlertWindow : UI_PopupBase
     {
-        [SerializeField] TMP_Text _message;
-        [SerializeField] Button _confirm;
+        [Resolve] TMP_Text _message;
+        [Resolve] Button _confirm;
 
         public void Show(string message, UnityAction onConfirmed = null)
         {

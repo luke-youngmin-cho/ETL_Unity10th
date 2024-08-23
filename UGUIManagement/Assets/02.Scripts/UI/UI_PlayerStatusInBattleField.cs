@@ -7,7 +7,7 @@ namespace Demo.UI
 {
     public class UI_PlayerStatusInBattleField : UI_Base
     {
-        [SerializeField] Button _shop;
+        [Resolve] Button _shop;
 
 
         protected override void Awake()
