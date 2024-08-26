@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Demo.AISystems.BT
 {
@@ -22,6 +22,11 @@ namespace Demo.AISystems.BT
             }
 
             return Result.Failure;
+        }
+
+        public void Attach(Node child)
+        {
+            this.child = child;
         }
     }
 }

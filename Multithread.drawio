@@ -1,0 +1,310 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="683" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-0" value="Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-1" value="컴파일 된 코드" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-2" value="이 프로그램 실행시&lt;div&gt;사용해야하는 데이터&lt;/div&gt;&lt;div&gt;(전역변수)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-3" value="런타임중에 할당/해제를 해야하는 객체를 위한 메모리 공간" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-4" value="실행해야하는&amp;nbsp;&lt;div&gt;함수의 데이터&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-5" value="CODE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-6" value="DATA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-7" value="HEAP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-8" value="STACK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-9" value="C# 은 더 높은 객체지향 컨셉 언어기 때문에&amp;nbsp;&lt;div&gt;멤버변수가 아닌 전역변수를 정의할수 없음&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-10" value="함수의 데이터 공간&amp;nbsp;&lt;div&gt;: 지역변수&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-11" value="프로그램의 인스턴스" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="100" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="100" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-13" value="HDD / SSD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="70" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-14" value="원본 프로그램" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="110" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-15" value="DRAM (Dynamic)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="70" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-16" value="SRAM (Static)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-17" value="시스템 프로그램을 캐싱해놓는 메모리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="25" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-19" value="프로세스라고도 함" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="100" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-29" value="실행해야하는&amp;nbsp;&lt;div&gt;함수의 데이터&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-30" value="실행해야하는&amp;nbsp;&lt;div&gt;함수의 데이터&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-31" value="쓰레드 : 프로세스의 작업의 기본단위&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CODE, DATA, HEAP 영역을 공유하여&lt;/div&gt;&lt;div&gt;작업을 처리하는 Stack 영역&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="125" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-66" value="Race condition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="219.5" y="430" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-67" value="여러 작업이 공유된 자원을 두고 경쟁하는 상황" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="430" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-68" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="480" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-32" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-68">
+          <mxGeometry x="65" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-68">
+          <mxGeometry x="10" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-34" value="주문점여" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-68">
+          <mxGeometry x="65" y="155" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-35" value="Server1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-68">
+          <mxGeometry x="10" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-36" value="Server2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-68">
+          <mxGeometry x="119" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-69" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="480" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-37" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-69">
+          <mxGeometry x="67.5" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-69">
+          <mxGeometry x="12.5" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-39" value="스파게티," style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-69">
+          <mxGeometry x="67.5" y="155" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-40" value="Server1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-69">
+          <mxGeometry x="26.5" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-41" value="Server2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-69">
+          <mxGeometry x="121.5" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-42" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;1. 스파게티&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-69">
+          <mxGeometry x="26.5" y="50" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-70" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="480" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-47" value="Server2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="100" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-43" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="65" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="10" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-46" value="Server1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="24" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-45" value="파스타" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="65" y="155" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-48" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;1. 스파게티&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;2. 파스타&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="24" y="50" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-49" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;1. 파스타&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-70">
+          <mxGeometry x="110" y="50" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-71" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="480" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-50" value="Server2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="102" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-51" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="67" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="12" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-54" value="주문완료." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="67" y="155" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-55" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;1. 스파게티&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;2. 파스타&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="56" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-56" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;1. 파스타&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="112" y="50" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-57" value="제출된주문서" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-71">
+          <mxGeometry x="12" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-72" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="480" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-60" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-72">
+          <mxGeometry x="67.5" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-72">
+          <mxGeometry x="12.5" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-62" value="주문완료." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-72">
+          <mxGeometry x="67.5" y="155" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-63" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;1. 스파게티&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;2. 파스타&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-72">
+          <mxGeometry x="56.5" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-64" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;1. 파스타&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-72">
+          <mxGeometry x="56.5" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-65" value="제출된주문서" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-72">
+          <mxGeometry x="12.5" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-73" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="850" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-74" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-73">
+          <mxGeometry x="65" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-75" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-73">
+          <mxGeometry x="10" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-76" value="주문점여" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-73">
+          <mxGeometry x="65" y="155" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-77" value="Server1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-73">
+          <mxGeometry x="35" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-78" value="Server2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-cjQNIaaJEHfUUPN_wov-73">
+          <mxGeometry x="140" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-79" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="202.5" y="990" width="237.5" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-80" value="Lock" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="159.5" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-81" value="Critical Section" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="800" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-82" value="Monitor.Enter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-83" value="어떤 쓰레드에서 사용중일때&amp;nbsp;&lt;div&gt;외부에 공유되면 안되는 영역 (동시에 접근하면 안되는 영역)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="800" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-84" value="Monitor.Exit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-85" value="Critical Section" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="900" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-86" value="Lock (Monitor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="800" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-87" value="Mutex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="890" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-88" value="Semaphore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="1010" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-89" value="Spinlock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="1120" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-90" value="현재 어플리케이션 내에서&amp;nbsp;&lt;div&gt;특정 자원을 둘 이상의 쓰레드가 공유하지 못하도록 하는 것&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="800" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-91" value="여러 프로세스들 사이에서&amp;nbsp;&lt;div&gt;현재 프로세스의 특정 스레드만&amp;nbsp;&lt;/div&gt;&lt;div&gt;자원을 사용할수 있도록 배제하는 것&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;현재 프로세스 외에는 이 자원에 대한 점유를 해제할 수 없다.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="890" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-92" value="여러 프로세스들의 각 특정 스레드들이&amp;nbsp;&lt;br&gt;&lt;div&gt;한 자원을 사용할수 있도록 배제하는 것&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;다른 프로세스도 자원을 점유하고있는 프로세스를 해제할 수 있다.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="1010" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-93" value="Critical Section 에 진입이 불가능할 때 ,&amp;nbsp;&lt;div&gt;while 루프 돌면서 진입 될때까지&amp;nbsp;&lt;/div&gt;&lt;div&gt;작업을 멈춤&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;아주 기다림이 빨리 끝날것같은 작은단위의 자원에 대해서&amp;nbsp;&lt;/div&gt;&lt;div&gt;ContextSwitching 비용을 만들지 않기위해서 루프를 돌면서 자원에 접근하려하는 방법&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="1120" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-95" value="Context Swithcing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-96" value="현재 프로세스 / 쓰레드를 중단하고&amp;nbsp;&lt;div&gt;다른 프로세스 / 쓰레드를 실행하는 것&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="800" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-97" value="Thread 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1181" y="870" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-98" value="Thread 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1331" y="870" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-99" value="PCB&lt;div&gt;(Process Context / Control Block)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="985" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.305;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-cjQNIaaJEHfUUPN_wov-97" target="-cjQNIaaJEHfUUPN_wov-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="985" as="sourcePoint" />
+            <mxPoint x="1160" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-101" value="Save" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="925" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.705;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-cjQNIaaJEHfUUPN_wov-99" target="-cjQNIaaJEHfUUPN_wov-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1261" y="920" as="sourcePoint" />
+            <mxPoint x="1261" y="996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-103" value="Load" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1331" y="935" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-105" value="Context&lt;div&gt;Switching&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1255" y="870" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-106" value="DeadLock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1114.75" y="1050" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-107" value="둘 이상의 쓰레드가 작업을 끝내기위한 조건으로 서로가 점유하고있는 자원을 요구할때, 서로 엮여서 빠져나오지 못하는 상황" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="1050" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-108" value="Thread 종류" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1144.5" y="25" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-109" value="CPU Bound" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="80" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-110" value="I/O Bound" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="135" width="110.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-111" value="CPU 연산량이 많은 작업을 할당하는 쓰레드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1331" y="80" width="179" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-cjQNIaaJEHfUUPN_wov-112" value="연산할 내용은 거의 없지만&amp;nbsp;&lt;div&gt;입/출력을 기다려야하는 쓰레드&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1331" y="132.5" width="189" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

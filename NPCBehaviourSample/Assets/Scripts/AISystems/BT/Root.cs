@@ -1,4 +1,4 @@
-﻿namespace Demo.AISystems.BT
+namespace Demo.AISystems.BT
 {
     /// <summary>
     /// 최상위 노드. 자식을 이어서 순회하도록함.
@@ -11,6 +11,10 @@
 
         public Node child { get; set; }
 
+        public void Attach(Node child)
+        {
+            this.child = child;
+        }
 
         public override Result Invoke()
         {

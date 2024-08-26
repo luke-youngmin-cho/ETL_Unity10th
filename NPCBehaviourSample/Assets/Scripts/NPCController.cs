@@ -16,8 +16,19 @@ namespace Demo
 
         private void Awake()
         {
+            // 체이닝함수로 빌드함수들 제공할때
             BehaviourTree tree = GetComponent<BehaviourTree>();
-            tree.Build();
+            tree.Build()
+                    .Selector()
+                        .Sequence()
+                            .Seek(_seekRadius, _seekHeight, _seekAngle, _seekTargetMask, _seekMaxDistance)
+                            .Decorator(() => true)
+                                .Execution(() => Result.Success)
+                            .FinishCurrentComposite()
+                        .FinishCurrentComposite();
+            
+            // 그냥 하드코딩
+            /*tree.Build();
             Selector selector1 = new Selector(tree);
             tree.root.child = selector1;
             Sequence sequence1 = new Sequence(tree);
@@ -37,7 +48,7 @@ namespace Demo
                 return Result.Success;
             });
             isInAttackRange.child = attack;
-            sequence1.children.Add(isInAttackRange);
+            sequence1.children.Add(isInAttackRange);*/
         }
     }
 }

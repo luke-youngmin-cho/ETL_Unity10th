@@ -1,0 +1,15 @@
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\bin\Debug\net6.0\MainProject.exe
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\bin\Debug\net6.0\MainProject.deps.json
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\bin\Debug\net6.0\MainProject.runtimeconfig.json
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\bin\Debug\net6.0\MainProject.dll
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\bin\Debug\net6.0\MainProject.pdb
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.AssemblyInfoInputs.cache
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.AssemblyInfo.cs
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.csproj.CoreCompileInputs.cache
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.sourcelink.json
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.dll
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\refint\MainProject.dll
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.pdb
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\MainProject.genruntimeconfig.cache
+C:\Users\YGL\nbkim\OneDrive\Documents\GitHub\ETL_Unity10th\MultithreadPractice\MainProject\obj\Debug\net6.0\ref\MainProject.dll
