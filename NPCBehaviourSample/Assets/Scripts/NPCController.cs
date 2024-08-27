@@ -1,10 +1,11 @@
 using Demo.AISystems.BT;
+using Fusion;
 using UnityEngine;
 
 namespace Demo
 {
     [RequireComponent(typeof(BehaviourTree))]
-    public class NPCController : MonoBehaviour
+    public class NPCController : NetworkBehaviour
     {
         [Header("AI Behaviours")]
         [Header("Seek")]
