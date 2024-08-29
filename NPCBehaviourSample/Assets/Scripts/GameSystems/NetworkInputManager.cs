@@ -12,6 +12,7 @@ namespace Assets.Scripts.GameSystems
 {
     public class NetworkInputManager : MonoBehaviour, INetworkRunnerCallbacks, InputActions.IPlayerActions
     {
+        public bool test_ignoreInput = true;
         InputActions _inputActions;
         NetworkInputData _inputDataCached;
 
@@ -50,6 +51,9 @@ namespace Assets.Scripts.GameSystems
 
         public void OnInput(NetworkRunner runner, NetworkInput input)
         {
+            if (test_ignoreInput)
+                return;
+
             input.Set(_inputDataCached);
         }
 
